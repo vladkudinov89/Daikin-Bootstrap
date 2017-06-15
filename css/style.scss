@@ -1,0 +1,138 @@
+body{
+  height: 100%;
+  min-width: 320px;
+  position: relative;
+  font-family:"Open Sans",sans-serif;
+  background-color: #ffffff;
+}
+
+.top-daikin{
+  font-style: italic;
+  color: #1c75bb;
+}
+
+.daikin-white,
+.daikin-dark{
+  text-align: center;
+  h2{
+    margin: 0;
+    padding-top: 60px;
+    color: #1c75bb;
+    font-style: italic;
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 20px;
+    font-family:"Open Sans Regular", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+}
+
+.daikin-dark{
+  p{
+    color: #333333;
+  }
+}
+
+.form-text{
+  padding-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:"Open Sans Regular", sans-serif;
+
+  b{
+    font-size: 26px;
+    color: #ffffff;
+  }
+
+  h2{
+    font-size: 40px;
+    color: #084366;
+  }
+
+}
+
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.bg-top{
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 12px 1px rgba(0,0,0,0.5);
+}
+
+.top-menu ul{
+  background-color: #f7f7f7;
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav li.active a{
+  color: #907dda;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 -3px 0 0 #907dda;
+}
+
+.top-nav li {
+  margin-left: 10px;
+}
+
+.top-nav a{
+  text-transform: uppercase;
+}
+
+
+.top-nav a:hover{
+  transition: all 0.3s linear;
+  color: #3d8aeb !important;
+}
+
+.container{
+  outline:1px solid red;
+}
+
+
+
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+#section6 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section7 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+
+
+
+/*MEDIA*/
+
+/*!* Large Devices, Wide Screens *! */
+@media only screen and (max-width: 1200px){
+
+
+}
+
+
+/*!* Medium Devices, Desktops *! */
+@media only screen and (max-width: 992px){
+
+
+}
+
+/*!* Small Devices, Tablets *! */
+@media only screen and (max-width: 768px){
+
+
+
+}
+
+/*Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+
+
+}
