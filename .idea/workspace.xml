@@ -1,10 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9adcd6c-2dfa-4bc3-9d56-49622856e94b" name="Default" comment="first change from phpStorm">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="b9adcd6c-2dfa-4bc3-9d56-49622856e94b" name="Default" comment="version 18-06">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/.gitignore" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/LICENSE" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/README.md" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/bootstrapTheme.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/bootstrapTheme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/custom.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/responsive.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/application.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/run_prettify.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/run_prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/jquery-1.9.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/changelog.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/changelog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/autoHeight.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/autoHeight.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/click.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/click.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/custom.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/custom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/customJson.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/customJson.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/full.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/full.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/images.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/images.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/itemsCustom.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/itemsCustom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/customData.json" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/customData.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/data.json" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/lazyLoad.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/lazyLoad.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/manipulations.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/manipulations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop2.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/one.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/one.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/owlStatus.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/owlStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/progressBar.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/progressBar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/randomOrder.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/randomOrder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/scaleup.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/scaleup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/sync.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/sync.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/transitions.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/transitions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/index.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.theme.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.transitions.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.transitions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/bower.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/bower.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/findup-sync/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/findup-sync/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/bower.json" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/component.json" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/dist/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/dist/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/example/usage.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/example/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/browser.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/crypto.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/browser.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/crypto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/readme.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/readme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/server.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/uri.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/jodid25519/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/jodid25519/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/address" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/address" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/calendar" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/calendar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/card" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/card" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/geo" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/geo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/interfaces" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/interfaces" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-03.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/links.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/links.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/validate.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/test/tests.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/test/tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rc/node_modules/deep-extend/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rc/node_modules/deep-extend/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rx-lite/rx.lite.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rx-lite/rx.lite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/test/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/LICENSE-MIT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +130,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="121">
+              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
-              <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+              <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -54,7 +160,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="1640">
               <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -80,7 +186,7 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="20520">
               <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
               <folding />
             </state>
@@ -107,9 +213,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,7 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,7 +296,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,23 +313,21 @@
               <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/#ШАГ/PHP/Lesson_4/Lesson 4" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="SearchEverywhereHistoryKey" value="navbar-brand&#9;null&#9;null&#10;navbar-toggle&#9;null&#9;null&#10;navbar-inverse&#9;null&#9;null" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -324,35 +424,45 @@
       <option name="presentableId" value="Default" />
       <updated>1497537663358</updated>
       <workItem from="1497537664811" duration="1424000" />
-      <workItem from="1497551751736" duration="8239000" />
+      <workItem from="1497551751736" duration="8480000" />
+      <workItem from="1497689603418" duration="1009000" />
+      <workItem from="1497804473677" duration="218000" />
     </task>
+    <task id="LOCAL-00001" summary="first change from phpStorm">
+      <created>1497560040563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497560040563</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9663000" />
+    <option name="totallyTimeSpent" value="11131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899868" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899868" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17866324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18251929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -364,7 +474,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first change from phpStorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="first change from phpStorm" />
+    <MESSAGE value="version 18-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 18-06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -373,14 +484,121 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1640">
+          <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
           <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20520">
+          <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1640">
+          <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20520">
+          <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2440">
           <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,23 +671,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.sass" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="4293" column="1" lean-forward="false" selection-start-line="4293" selection-start-column="1" selection-end-line="4293" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,13 +693,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="360" column="1" lean-forward="false" selection-start-line="360" selection-start-column="1" selection-end-line="360" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="1640">
           <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -525,14 +724,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="34" column="75" lean-forward="true" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+          <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -547,7 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="20520">
           <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
           <folding />
         </state>
@@ -555,14 +753,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

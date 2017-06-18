@@ -5,38 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daikin</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800&amp;subset=cyrillic"
+          rel="stylesheet">
 
     <!--CSS LINK-->
-    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="bower_components/owl-carousel/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!--JS LINK-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/countdown.js"></script>
     <script src="js/common.js"></script>
 
 </head>
 
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top bg-top">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">DAIKIN1</a>
-            </div>
-            <div>
+<nav class="navbar navbar-inverse navbar-fixed-top bg-top ">
+    <div class="container-fluid ">
+        <div class="container ">
+            <div class="row ">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
                 <div class="collapse navbar-collapse top-menu" id="myNavbar">
                     <ul class="nav navbar-nav top-nav">
+                        <li><a href="#section0">Daikin</a></li>
                         <li><a href="#section1">Шоурум</a></li>
                         <li><a href="#section2">Услуги</a></li>
                         <li><a href="#section3">Область приминения</a></li>
@@ -46,15 +51,102 @@
                         <li><a href="#section7">Контакты</a></li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </div>
 </nav>
 
-<div id="section1" class="container-fluid">
-    <h1>Section 1</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+<!--SECTION-0 START-->
+<div id="section0" class="container">
+    <div class="row">
+
+        <div class="top-logo">
+            <ul>
+                <li class="top-img col-md-4"><a href="#"> <img src="img/top-logo.jpg"
+                                                               alt="Daikin кондиционеры"> </a></li>
+                <li class="slogan col-md-2 "> Future<span>Thinking</span></li>
+                <li class="top-contact col-md-4">
+                    <div class="top-phone">+38 (048) <span>783-70-48</span></div>
+                    <div class="top-email">office@daikin-klimat.od.ua</div>
+                    <button class="btn"> обратный звонок</button>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </div>
+
+<div class="container-fluid bg-h-top">
+    <div class="container">
+        <div class="top-name">
+            <h1> кондиционеры <span class="top-daikin">DAIKIN</span></h1>
+            <p class="top-sales">
+                продажа и установка
+            </p>
+            <p> в Одессе и Одесской области </p></div>
+    </div>
+</div>
+<div class="container-fluid bg-top-stock">
+    <div class="container">
+        <div class="stock-wrapper">
+            <div class="top-stock col-md-6">
+                <div class="top-stock-text"><h2> Успей купить </h2>
+                    <div class="s-text"><p>Доставка по городу</p>
+                        <p><span class="plus">+</span></p>
+                        <p>Монтаж 1000 грн</p></div>
+                    <button class="btn-order">оставить заявку</button>
+                    <p class="end-akcia"> До конца акции осталось: </p>
+                    <div id="CDT"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--SECTION-0 END-->
+
+<!--SECTION-1 START-->
+<div id="section1" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-9 text-center">
+                <div class="daikin-dark"><h2>DAIKIN</h2>
+                    <p> шоурум кондиционеров Daikin в Одессе </p>
+                </div>
+                <p class="gallery-text"> Открылся самый большой шоу-рум кондиционеров Daikin в Одессе.
+                    Теперь каждый желающий купить кондиционеры Daikin по выгодной цене сможет это сделать в Одессе. Причем
+                    перед
+                    покупкой можно вживую ознакомиться со всем модельным рядом продукции и выбрать тот, который по душе.
+                    Кроме
+                    этого, можно воспользоваться консультацией высококвалифицированного специалиста, который поможет
+                    подобрать
+                    нужную модель соответствующую всем заданным критериям.
+                </p>
+
+                <div class="owl-carousel owl-theme">
+                    <div> <img src="image/gallery-foto/foto-1.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-2.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-3.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-4.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-5.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-6.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-7.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-8.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-9.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-10.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-11.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-12.jpg" alt=""> </div>
+                    <div> <img src="image/gallery-foto/foto-14.jpg" alt=""> </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--SECTION-1 END-->
+
+
+
 <div id="section2" class="container-fluid">
     <h1>Section 2</h1>
     <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
@@ -79,8 +171,6 @@
     <h1>Section 4 Submenu 2</h1>
     <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 </div>
-
-
 
 
 </body>
