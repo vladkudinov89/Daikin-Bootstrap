@@ -1,121 +1,368 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9adcd6c-2dfa-4bc3-9d56-49622856e94b" name="Default" comment="version 18-06">
+    <list default="true" id="b9adcd6c-2dfa-4bc3-9d56-49622856e94b" name="Default" comment="version 20-06">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/bird_blue_32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/feature-drag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/feature-modern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/feature-module.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/feature-options.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/feature-responsive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/feature-zombie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/owl-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/img/twitter_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/bird_blue_32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/feature-drag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/feature-modern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/feature-module.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/feature-options.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/feature-responsive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/feature-zombie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/owl-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/img/twitter_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/releated-docs.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/img/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/about-daikin/australia.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/about-daikin/europe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/about-daikin/singapur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/about-daikin/usa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/points-daikin/home.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/points-daikin/office.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/points-daikin/proizvod.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/points-daikin/restoran.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/points-daikin/school.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/points-daikin/shop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/chiller.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/holod.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/polyprom-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/polyprom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/split.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/vent-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/vent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/vrm1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-about-daikin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-comment.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-point-daikin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-price-form.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-top-form-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-top-form.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foto-people-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foto-people-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foto-people-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/foto-people-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nav_thumbs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top-header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/top-logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/views.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/ROADMAP.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/_config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.theme.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.theme.green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/assets/owl.theme.green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/dist/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/css/docs.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/js/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.theme.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.theme.green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/owlcarousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/vendors/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/vendors/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/vendors/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/vendors/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/assets/vendors/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/autoplay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/autowidth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/basic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/demos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/lazyLoad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/merge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/mousewheel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/responsive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/rtl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/stagepadding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/urlhashnav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/demos/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/api-classes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/api-events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/api-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/dev-buildin-plugins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/dev-external.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/dev-plugin-api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/dev-styles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/started-faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/started-installation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/started-welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/support-changelog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/support-contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/docs/support-contributing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/js/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/scss/_settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/scss/custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/scss/demos.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/scss/docs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/scss/docs.theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/scss/highlight.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/vendors/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/vendors/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/vendors/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/vendors/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/assets/vendors/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/data/classes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/data/events.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/data/features.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/data/options.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/helpers/modulo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/helpers/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/layouts/demos.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/layouts/docs.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/layouts/home.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/animate.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/autoheight.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/autoplay.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/autowidth.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/basic.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/center.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/demos.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/events.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/lazyLoad.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/merge.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/mousewheel.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/responsive.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/rtl.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/stagepadding.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/test.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/urlhashnav.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/demos/video.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/api-classes.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/api-events.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/api-options.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/dev-external.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/dev-plugin-api.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/dev-styles.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/started-faq.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/started-installation.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/started-welcome.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/support-changelog.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/support-contact.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/docs/support-contributing.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/pages/index.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/footer.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/head.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/header.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/home-carousel.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/home-features.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/home-hero.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/home-teaser-text.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/javascripts.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/sidenav-docs.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/title.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/docs_src/templates/partials/vendors.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.autoheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.autoplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.autorefresh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.lazyload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.navigation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.support.modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/js/owl.video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_animate.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_autoheight.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_lazyload.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_theme.default.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_theme.green.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/_video.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/owl.carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/owl.theme.default.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/src/scss/owl.theme.green.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/test/unit/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/countdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/bootstrapTheme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/ico/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/AjaxLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/css3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/grab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/modern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/multi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/responsive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/tons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/touch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/demo-slides/zombie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/glyphicons-halflings-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/img/owl-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/run_prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/changelog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/fullimage7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/assets/owl8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/autoHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/click.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/custom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/customJson.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/full.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/itemsCustom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/customData.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/lazyLoad.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/manipulations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/owlStatus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/progressBar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/randomOrder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/scaleup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/sync.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/AjaxLoader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/grabbing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.transitions.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/.gitignore" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/LICENSE" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/README.md" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/bootstrapTheme.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/bootstrapTheme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/custom.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/responsive.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/application.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/bootstrap-transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/run_prettify.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/google-code-prettify/run_prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/assets/js/jquery-1.9.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/changelog.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/changelog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/autoHeight.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/autoHeight.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/click.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/click.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/custom.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/customJson.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/customJson.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/full.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/full.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/images.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/images.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/itemsCustom.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/itemsCustom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/customData.json" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/customData.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/data.json" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/json/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/lazyLoad.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/lazyLoad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/manipulations.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/manipulations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop2.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/navOnTop2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/one.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/owlStatus.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/owlStatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/progressBar.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/progressBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/randomOrder.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/randomOrder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/scaleup.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/scaleup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/sync.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/sync.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/demos/transitions.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/demos/transitions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/index.html" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.js" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.theme.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.transitions.css" afterPath="$PROJECT_DIR$/bower_components/owl-carousel/owl-carousel/owl.transitions.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/bower.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/bower.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/cryptiles/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/findup-sync/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/findup-sync/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/bower.json" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/component.json" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/component.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/dist/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/dist/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/example/usage.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/example/usage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/browser.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/crypto.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/crypto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/browser.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/client.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/crypto.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/crypto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/readme.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/readme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/server.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/uri.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/uri.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/utils.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/jodid25519/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/jodid25519/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/hyper-schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/json-ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/links" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-00/schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/hyper-schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/json-ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/links" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-01/schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/hyper-schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/json-ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/links" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-02/schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/address" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/address" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/calendar" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/calendar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/card" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/card" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/geo" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/geo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/interfaces" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/examples/interfaces" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/hyper-schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/json-ref" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/json-ref" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/links" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-03/schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/hyper-schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/links" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/links" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/schema" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-04/schema" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-03.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/draft-zyp-json-schema-04.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/links.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/links.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/validate.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/lib/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/test/tests.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/json-schema/test/tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rc/node_modules/deep-extend/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rc/node_modules/deep-extend/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rx-lite/rx.lite.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/rx-lite/rx.lite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.npmignore" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/test/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/uglify-to-browserify/test/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/LICENSE-MIT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/README.md" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/index.js" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/window-size/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,67 +374,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1640">
-              <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
-              <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20520">
-              <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -260,57 +451,11 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
+              <option name="myItemId" value="Daikin-Bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style.scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAIKIN-Bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="Daikin-Bootstrap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,6 +473,11 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="SearchEverywhereHistoryKey" value="navbar-brand&#9;null&#9;null&#10;navbar-toggle&#9;null&#9;null&#10;navbar-inverse&#9;null&#9;null" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Projects\DAIKIN-Bootstrap\Daikin-Bootstrap" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -427,6 +577,8 @@
       <workItem from="1497551751736" duration="8480000" />
       <workItem from="1497689603418" duration="1009000" />
       <workItem from="1497804473677" duration="218000" />
+      <workItem from="1497901351583" duration="115000" />
+      <workItem from="1497979248632" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="first change from phpStorm">
       <created>1497560040563</created>
@@ -439,24 +591,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11131000" />
+    <option name="totallyTimeSpent" value="12025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18251929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19215938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3499327" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -475,7 +627,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first change from phpStorm" />
     <MESSAGE value="version 18-06" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 18-06" />
+    <MESSAGE value="version 20-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20-06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,44 +653,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20520">
-          <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html" />
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -562,38 +733,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20520">
-          <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html" />
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -610,20 +751,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2440">
-          <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/index.html" />
+    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/js/common.js" />
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -646,13 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/style/style.css" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -660,28 +783,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="122" column="6" lean-forward="false" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/index.html" />
+    <entry file="file://$PROJECT_DIR$/../Navigation-for-landing/js/common.js" />
     <entry file="file://$PROJECT_DIR$/css/style.sass" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -696,30 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="82" column="66" lean-forward="false" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/index.html" />
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/package.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -729,7 +810,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="799">
           <caret line="47" column="75" lean-forward="false" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
           <folding />
         </state>
@@ -743,18 +824,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss">
+    <entry file="file://$PROJECT_DIR$/../DAIKIN/DAIKIN-before-patch/style/style.scss" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20520">
-          <caret line="1026" column="17" lean-forward="false" selection-start-line="1026" selection-start-column="17" selection-end-line="1026" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
         </state>
       </provider>
