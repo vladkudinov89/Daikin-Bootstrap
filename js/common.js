@@ -5,13 +5,15 @@ $(document).ready(function () {
         items: 1,
         nav: true,
         loop: true,
-
-        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+        dots : true,
+        navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
 
     });
 
    /* $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
     $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');*/
+
+
 
 
     // Add scrollspy to <body>
@@ -41,6 +43,12 @@ $(document).ready(function () {
             $(".navbar-collapse").collapse('hide');
         }  // End if
     });
+
+    /*Animation START*/
+    $(".production li").animated(" bounceInUp");
+   /* $(".why-we li").animated("bounceInUp");*/
+    /*Animation END*/
+
 
 });
 

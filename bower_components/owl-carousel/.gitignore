@@ -1,7 +1,18 @@
-.DS\_Store
-owl.carousel.v1.0.zip
-.htaccess
-index.mypage.html
-owl.carousel.zip
+*.iml
+.sass-cache
+.bowerrc
+.idea
+/bower_components
+/node_modules
+*.sublime*
+*.zip
+/jscs.report.txt
 
-owl.carousel.zip
+.DS_Store
+*/.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.grunt

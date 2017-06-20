@@ -6,21 +6,21 @@ body {
   background-color: #FFFFFF;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .container {
-  /* outline: 1px solid red;*/
+ /* outline: 1px solid red;*/
 
 }
 
@@ -162,7 +162,7 @@ ul {
     margin: 0;
 
     li {
-        padding: 0;
+      padding: 0;
     }
 
   }
@@ -170,7 +170,7 @@ ul {
 }
 
 .slogan {
-  font-weight: 400;
+  font-family: "Open Sans Light", sans-serif;
   font-style: italic;
   color: #1f1a17;
 }
@@ -226,37 +226,37 @@ ul {
 
 /*BG-H-TOP BEGIN*/
 
-.bg-h-top{
+.bg-h-top {
   background: #1a586c url(../img/top-header.jpg) 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-.top-name{
+.top-name {
   text-align: right;
   padding: 100px 0;
   margin-right: 40px;
 
-  h1{
+  h1 {
     margin: 0;
     padding: 0;
-    font-family:"Open Sans Regular", sans-serif;
+    font-family: "Open Sans Regular", sans-serif;
     font-weight: 800;
     font-size: 42px;
     color: #fff;
     text-transform: uppercase;
   }
 
-  p{
+  p {
     margin: 0;
-    font-family:"Open Sans Light", sans-serif;
+    font-weight: 400;
     color: #ffffff;
     font-size: 36px;
 
-    a{
-      font-family:"Open Sans Regular",sans-serif;
+    a {
+      font-family: "Open Sans Regular", sans-serif;
       font-style: italic;
-      font-weight:bold;
+      font-weight: bold;
       font-size: 40px;
       color: #0181cf;
       text-decoration: none;
@@ -271,17 +271,17 @@ ul {
 
 /*TOP FORM BEGIN*/
 
-.bg-top-stock{
+.bg-top-stock {
   background: #0e1015 url(../img/bg-top-form-1.jpg) 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-.stock-wrapper{
+.stock-wrapper {
   padding: 20px 0;
 }
 
-.top-stock{
+.top-stock {
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0;
@@ -290,21 +290,21 @@ ul {
   @extend .flex-column;
 }
 
-.top-stock h2{
+.top-stock h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 20px;
   color: #fff;
   font-size: 28px;
-  font-weight:bold;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
-.plus{
+.plus {
   color: #fff;
 }
 
-.s-text p{
+.s-text p {
   margin: 5px 0;
   text-align: center;
   color: #0182d0;
@@ -313,16 +313,15 @@ ul {
   text-transform: uppercase;
 }
 
-
-p.end-akcia{
+p.end-akcia {
   color: #fff;
   font-size: 22px;
   text-align: center;
   padding-top: 25px;
 }
 
-.btn-order,.btn-ord{
-  font-family:"Open Sans Light", sans-serif;
+.btn-order, .btn-ord {
+  font-weight: 400;
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -330,28 +329,25 @@ p.end-akcia{
   outline: none;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
   background-color: #1c75bb;
   border-radius: 10px;
-  padding: 15px 40px;
+  padding: 10px 40px;
   margin-top: 20px;
 }
 
 .btn-order:hover,
-.btn-ord:hover{
+.btn-ord:hover {
   transition: all 0.5s linear;
   background-color: #084366;
 }
 
 .btn-order:active,
-.btn-ord:active{
+.btn-ord:active {
   background-color: #255a66;
 }
 
 /*TOP FORM END*/
-
-
 
 /*TIMER BEGIN*/
 #CDT {
@@ -409,82 +405,89 @@ p.end-akcia{
 
 /*TOP_GALLERY BEGIN*/
 
-#section1 .owl-carousel{
-  margin-bottom: 30px;
+.gallery-text {
+  text-align: center;
+  font-size: 16px;
+  text-transform: none;
+
 }
 
-.owl-theme .owl-nav{
-  margin: 0;
-  color: #37ace5 !important;
+#section1 .owl-carousel {
+  margin: 30px 0;
+  position: relative;
+
+  .owl-nav {
+    margin: 0;
+    color: #37ace5 !important;
+
+    .owl-prev,
+    .owl-next {
+      display: inline-block;
+      position: absolute;
+      top: 40%;
+      font-size: 32px;
+      color: #37ace5;
+    }
+
+    .owl-prev {
+      left: -20px;
+    }
+
+    .owl-next {
+      right: -20px;
+    }
+
+  }
+
+  .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #c0d6e8;
+    border-radius: 5px;
+    margin: 15px 5px;
+  }
+
+  .owl-dot.active {
+    background-color: #37ace5;
+  }
+
 }
-
-.owl-prev{
-  display: inline-block;
-  position: absolute;
-  top: 45%;
-  left: -25px;
-  /* vertical-align: middle; */
-  font-size: 30px;
-  color: #37ace5;
-}
-
-.owl-next{
-  display: inline-block;
-  position: absolute;
-  top: 45%;
-  right: -25px;
-  /* vertical-align: middle; */
-  font-size: 30px;
-  color: #37ace5;
-}
-
-
-
 
 /*TOP_GALLERY END*/
 
-
-
 /*ABOUT DAIKIN BEGIN*/
 
-.bg-about-daikin{
+.bg-about-daikin {
   background: #00407d url(../img/bg-about-daikin.jpg) 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-.about-daikin{
-
-}
-
-.about-text{
-  text-align: center;
+.about-text {
   font-size: 16px;
-  font-family:"Open Sans Light", sans-serif;
+  font-weight: 400;
   color: #fff;
   text-transform: uppercase;
 }
 
-.about-daikin ul{
-  margin: 0;
-  margin-top: 40px;
-  @extend .flex-row;
-  justify-content: space-between;
+.about-daikin ul {
+  margin: 40px 0;
 
-  figure{
+  figure {
     margin: 0;
     text-align: center;
 
-    img{
+    img {
       border: 5px solid #fff;
     }
 
-    figcaption{
+    figcaption {
       color: #fff;
       text-align: center;
-      font-family:"Open Sans Regular", sans-serif;
+      font-family: "Open Sans Regular", sans-serif;
       text-transform: uppercase;
-      font-weight:bold;
+      font-weight: bold;
 
     }
 
@@ -492,10 +495,166 @@ p.end-akcia{
 
 }
 
+//about-daikin
+
 /*ABOUT DAIKIN END*/
 
+/*PRODUCTION BEGIN*/
+
+.production ul {
+  margin: 0;
+  margin-top: 50px;
+  @extend .flex-row;
+  justify-content: space-between;
+
+  li {
+    margin-bottom: 100px;
+  }
+
+}
+
+.prod-name p {
+  background-color: #32b0eb;
+  color: #fff;
+  font-family: "Open Sans Regular", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.production figure {
+  text-align: center;
+  margin: 0;
+  border: 2px solid #32b0eb;
+
+}
+
+.prod-description {
+  margin: 0;
+  padding-bottom: 20px;
+  background-color: #15171c;
+
+  h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans Light", sans-serif;
+    color: #fff;
+  }
+
+}
+
+/*PRODUCTION END*/
+
+/*FORM PRICE BEGIN*/
+
+.bg-form-price {
+  background: #fff url(../img/bg-price-form.jpg) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.form-price {
 
 
+  .form {
+    margin-bottom: 40px;
+
+    button{
+      width: 250px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      border: none;
+      outline: none;
+      background-color: #ffffff;
+      width: 250px;
+      color: #004481;
+      font-size: 16px;
+      padding: 10px;
+      text-transform: uppercase;
+      border-radius: 5px;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #004481;
+    }
+    ::-moz-placeholder {
+      color: #004481;
+    }
+    /* Firefox 19+ */
+    :-moz-placeholder {
+      color: #004481;
+    }
+    /* Firefox 18- */
+    :-ms-input-placeholder {
+      color: #004481;
+    }
+
+  }
+
+}
+
+/*FORM PRICE END*/
+
+/*POINTS BEGIN*/
+
+.bg-points{
+  background: #2f688c url(../img/bg-point-daikin.jpg) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.points{
+
+  padding-bottom: 100px;
+
+  ul{
+    margin: 0;
+    @extend .flex-row;
+    justify-content: space-between;
+
+    li{
+      margin-top: 70px;
+    }
+
+  }
+
+  figure{
+    margin: 0;
+    text-align: center;
+
+    img{
+      border: 2px solid #fff;
+      vertical-align: top;
+    }
+
+    figcaption{
+      background-color: #fff;
+      text-align: center;
+      color: #333;
+      font-size: 18px;
+      padding: 5px 0;
+    }
+
+  }
+
+}
+
+/*POINTS END*/
 
 
 
@@ -506,19 +665,21 @@ p.end-akcia{
   background-color: #1E88E5;
 }*/
 
-#section2 {
+/*#section2 {
   padding-top: 50px;
   height: 500px;
   color: #fff;
   background-color: #673ab7;
-}
+}*/
 
+/*
 #section3 {
   padding-top: 50px;
   height: 500px;
   color: #fff;
   background-color: #ff9800;
 }
+*/
 
 #section4 {
   padding-top: 50px;
@@ -548,70 +709,7 @@ p.end-akcia{
   background-color: #ff9800;
 }
 
-/*MEDIA*/
-
-/*
-!*!* Large Devices, Wide Screens *! *!
-@media only screen and (max-width: 1200px){
-
-
-}
-
-@media only screen and (max-width: 1024px){
-
-
-  .top-nav{
-    li{
-      margin: 0;
-      font-size: 12px;
-    }
-  }
-
-}
-
-@media only screen and (max-width: 1023px){
-
-
-  .top-nav{
-    li{
-      margin: 0;
-      font-size: 12px;
-    }
-  }
-
-
-
-}
-
-
-!*!* Medium Devices, Desktops *! *!
-@media only screen and (max-width: 992px){
-
-  .top-logo ul{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-!*!* Small Devices, Tablets *! *!
-@media only screen and (min-width: 768px){
-
-
-
-
-}
-
-!*Extra Small Devices, Phones *!
-@media only screen and (max-width: 480px){
-
- 
-
-}
-*/
-
 /*==========  Non-Mobile First Method  ==========*/
-
 
 @media only screen and (max-width: 1200px) {
 
@@ -626,6 +724,11 @@ p.end-akcia{
   #CDT .number-wrapper {
     margin: 3px;
   }
+
+  .production img {
+    width: 100%;
+  }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -638,25 +741,45 @@ p.end-akcia{
 
   }
 
-
-
-
-
-
-
 }
+
+/*=============================================*/
 
 @media only screen and (min-width: 1024px) {
 
-
 }
+
+/*=============================================*/
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
+  .daikin-white h2,
+  .daikin-dark h2 {
+    padding-top: 80px;
+  }
 
+  .about-daikin {
+
+    ul {
+
+      margin-top: 40px;
+
+      li {
+        margin-bottom: 40px;
+      }
+
+      li:nth-last-child(1) {
+        margin-bottom: 0;
+      }
+    }
+
+  }
+  //about-daikin
 
 }
+
+/*=============================================*/
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -688,7 +811,26 @@ p.end-akcia{
     margin: 20px 0;
   }
 
+  .production ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form{
+    div{
+      margin-bottom: 20px;
+    }
+  }
+
+  .points ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
+
+/*=============================================*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -705,27 +847,32 @@ p.end-akcia{
     margin: 1px;
   }
 
-
-  .top-name{
+  .top-name {
     text-align: center;
 
-    h1{
+    h1 {
       font-size: 28px;
     }
 
-    p{
+    p {
       font-size: 24px;
     }
   }
 
+  .production img {
+    width: 255px;
+  }
+
+  .points img{
+    width: 100%;
+  }
 
 }
 
+/*=============================================*/
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-
-
-
 
 }
 

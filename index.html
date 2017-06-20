@@ -9,18 +9,28 @@
           rel="stylesheet">
 
     <!--CSS LINK-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="bower_components/owl-carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+
+<!--
+
+    &lt;!&ndash;AutoPrefix file&ndash;&gt;
+    <link rel="stylesheet" href="css/a-style.css">
+
+-->
     <!--JS LINK-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="bower_components/owl-carousel/dist/owl.carousel.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/animate-css.js"></script>
     <script src="js/common.js"></script>
+
 
 </head>
 
@@ -89,7 +99,7 @@
 </div>
 <div class="container-fluid bg-top-stock">
     <div class="container">
-        <div class="stock-wrapper">
+        <div class="stock-wrapper clearfix">
             <div class="top-stock col-md-6">
                 <div class="top-stock-text"><h2> Успей купить </h2>
                     <div class="s-text"><p>Доставка по городу</p>
@@ -110,11 +120,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-9 text-center">
-                <div class="daikin-dark"><h2>DAIKIN</h2>
+                <div class="daikin-dark">
+                    <h2>DAIKIN</h2>
                     <p> шоурум кондиционеров Daikin в Одессе </p>
                 </div>
                 <p class="gallery-text"> Открылся самый большой шоу-рум кондиционеров Daikin в Одессе.
-                    Теперь каждый желающий купить кондиционеры Daikin по выгодной цене сможет это сделать в Одессе. Причем
+                    Теперь каждый желающий купить кондиционеры Daikin по выгодной цене сможет это сделать в Одессе.
+                    Причем
                     перед
                     покупкой можно вживую ознакомиться со всем модельным рядом продукции и выбрать тот, который по душе.
                     Кроме
@@ -124,19 +136,19 @@
                 </p>
 
                 <div class="owl-carousel owl-theme">
-                    <div> <img src="image/gallery-foto/foto-1.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-2.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-3.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-4.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-5.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-6.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-7.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-8.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-9.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-10.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-11.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-12.jpg" alt=""> </div>
-                    <div> <img src="image/gallery-foto/foto-14.jpg" alt=""> </div>
+                    <div><img src="image/gallery-foto/foto-1.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-2.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-3.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-4.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-5.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-6.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-7.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-8.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-9.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-10.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-11.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-12.jpg" alt=""></div>
+                    <div><img src="image/gallery-foto/foto-14.jpg" alt=""></div>
 
                 </div>
             </div>
@@ -145,16 +157,216 @@
 </div>
 <!--SECTION-1 END-->
 
+<div class="container-fluid bg-about-daikin">
+    <div class="container">
+        <div class="about-daikin">
+            <div class="daikin-white">
+                <h2>DAIKIN</h2>
+                <p> мировой лидер в области кондиционирования </p>
+            </div>
+            <div class="col-md-offset-2 col-md-9 text-center about-text">
+                <p> Кондиционеры Daikin широко известны во всем мире. Вы можете найти
+                    кондиционер Daikin в любой части света, поскольку, люди всегда высоко оценивают технологию и
+                    качество
+                    Daikin и с удовольствием пользуются климатической техникой этого производителя. </p>
+            </div>
+            <div class="clearfix"></div>
+            <ul class="clearfix">
+                <li class="col-md-3 col-sm-6">
+                    <figure><img src="image/about-daikin/usa.jpg" alt="Daikin кондиционеры">
+                        <figcaption>DAIKIN USA</figcaption>
+                    </figure>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                    <figure><img src="image/about-daikin/europe.jpg" alt="Daikin кондиционеры">
+                        <figcaption>DAIKIN EUROPE</figcaption>
+                    </figure>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                    <figure><img src="image/about-daikin/australia.jpg" alt="Daikin кондиционеры">
+                        <figcaption>DAIKIN AUSTRALIA</figcaption>
+                    </figure>
+                </li>
+                <li class="col-md-3 col-sm-6">
+                    <figure><img src="image/about-daikin/singapur.jpg" alt="Daikin кондиционеры">
+                        <figcaption>DAIKIN SINGAPUR</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="section2">
+    <div class="container">
+        <div class="production">
+            <div class="daikin-dark">
+                <h2>DAIKIN</h2>
+                <p> представляет все виды систем кондиционирования для каждого объекта </p>
+            </div>
+
+            <ul>
+                <li class="col-md-5 col-sm-7 col-xs-12 animated">
+                    <div class="prod-name"><p> Сплит система </p></div>
+                    <figure><img src="image/production-daikin/split.jpg" alt="Daikin кондиционеры"></figure>
+                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                        <p> Daikin - Кондиционеры корпорации производится по всему миру, компрессоры и основные
+                            комплектующие изготавливаются только в Японии. Обязательный 100% входной контроль
+                            производится на все
+                            кондиционеры фирмы Daikin. </p>
+                        <button class="btn-order">оставить заявку</button>
+                    </div>
+                </li>
+                <li class="col-md-5 col-sm-7 col-xs-12 animated">
+                    <div class="prod-name"><p> Полупром серии </p></div>
+                    <figure><img src="image/production-daikin/polyprom.jpg" alt="Daikin кондиционеры"></figure>
+                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                        <p> Мощный воздушный поток канального кондиционера позволяет использовать длинные воздуховоды.
+                            Поскольку выдув воздуха можно отнести далеко от главного блока, возможны самые разнообразные
+                            конфигурации системы кондиционирования. </p>
+                        <button class="btn-order">оставить заявку</button>
+                    </div>
+                </li>
+                <li class="col-md-5 col-sm-7 col-xs-12 animated">
+                    <div class="prod-name"><p> Вент. установки </p></div>
+                    <figure><img src="image/production-daikin/vent-1.jpg" alt="Daikin кондиционеры"></figure>
+                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                        <p> Вентялиционные установки Daikin выгодно отличаются высоким качеством и доступными ценами.
+                            Отличаются высокой энергоэффективностью, что позволяет снизить расходы на эксплуатацию
+                            системы. </p>
+                        <button class="btn-order">оставить заявку</button>
+                    </div>
+                </li>
+                <li class="col-md-5 col-sm-7 col-xs-12 animated">
+                    <div class="prod-name"><p> Холодильные системы </p></div>
+                    <figure><img src="image/production-daikin/holod.jpg" alt="Daikin кондиционеры"></figure>
+                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                        <p> Холодильное оборудование Daikin подходит для широкого диапазона среднетемпературных систем и
+                            систем замораживания, и может быть подключено к любому типу холодильной или морозильной
+                            установки. </p>
+                        <button class="btn-order">оставить заявку</button>
+                    </div>
+                </li>
+                <li class="col-md-5 col-sm-7 col-xs-12 animated">
+                    <div class="prod-name"><p> VRV – системы </p></div>
+                    <figure><img src="image/production-daikin/vrm1.jpg" alt="Daikin кондиционеры"></figure>
+                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                        <p> Система VRV-это новое направление развития центральных систем кондиционирования компании
+                            Daikin.Модульный принцип позволяет использовать ее для зданий различного назначения и
+                            размеров. </p>
+                        <button class="btn-order">оставить заявку</button>
+                    </div>
+                </li>
+                <li class="col-md-5 col-sm-7 col-xs-1 animated">
+                    <div class="prod-name"><p> Чиллер-фанкойлы </p></div>
+                    <figure><img src="image/production-daikin/chiller.jpg" alt="Daikin кондиционеры"></figure>
+                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                        <p> Для точного поддержания микроклимата в самых различных помещениях корпорация Daikin
+                            предлагает уникальную систему кондиционирования на климатическом рынке с максимальными
+                            мощностями. </p>
+                        <button class="btn-order">оставить заявку</button>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-form-price">
+    <div class="container">
+        <div class="form-price">
+            <div class="form-text">
+                <b>Закажи полный</b>
+                <h2>прайс-лист</h2>
+            </div>
+            <form id="callback" class="form">
+                <div class="col-md-4 text-center">
+                    <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                </div>
+                <div class="col-md-4 text-center">
+                    <input type="text" name="phone" placeholder="ВАШ ТЕЛЕФОН">
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <input type="email" name="email" required placeholder="ВАШ EMAIL">
+                </div>
+                <div class="clearfix"></div>
+
+                <button value="Заказать" class="btn-ord">заказать</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 
-<div id="section2" class="container-fluid">
-    <h1>Section 2</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+<div id="section3" class="container-fluid bg-points">
+    <div class="container">
+        <div class="points">
+            <div class="daikin-white"><h2>DAIKIN</h2>
+                <p> мировой лидер в области кондиционирования </p></div>
+            <ul>
+                <li>
+                    <figure><img src="image/points-daikin/home.jpg" alt="Daikin кондиционеры">
+                        <figcaption>Квартира, дом</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="image/points-daikin/office.jpg" alt="Daikin кондиционеры">
+                        <figcaption>Офисы, общественные здания</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="image/points-daikin/restoran.jpg" alt="Daikin кондиционеры">
+                        <figcaption>Гостиницы, рестораны, кафе</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="image/points-daikin/proizvod.jpg" alt="Daikin кондиционеры">
+                        <figcaption>Производство</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="image/points-daikin/school.jpg" alt="Daikin кондиционеры">
+                        <figcaption>Школы, спортзалы</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="image/points-daikin/shop.jpg" alt="Daikin кондиционеры">
+                        <figcaption>Магазины, супермаркеты</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
-<div id="section3" class="container-fluid">
-    <h1>Section 3</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+
+<div class="container-fluid bg-form-price">
+    <div class="container">
+        <div class="form-price">
+            <div class="form-text">
+                <b>выезд монтажника для замера</b>
+                <h2>абсолютно бесплатно</h2>
+            </div>
+            
+            <form id="callback1" class="form">
+
+                <div class="col-md-6 text-center">
+                    <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                </div>
+                <div class="col-md-6 text-center">
+                    <input type="text" name="phone" required placeholder="ВАШ ТЕЛЕФОН">
+                </div>
+                <div class="clearfix"></div>
+
+                <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+
+            </form>
+
+        </div>
+    </div>
 </div>
+
 <div id="section4" class="container-fluid">
     <h1>Section 4 Submenu 1</h1>
     <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
@@ -171,6 +383,8 @@
     <h1>Section 4 Submenu 2</h1>
     <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
 </div>
+
+
 
 
 </body>
