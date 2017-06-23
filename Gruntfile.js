@@ -19,22 +19,19 @@ module.exports = function (grunt) {
                 dest: 'css/a-style.css'
             }*/
 
-        /*concat: {
+        concat: {
 
             dist: {
 
                 src: [
 
-                    'js/jquery-3.1.1.min.js',
-                    'js/jquery-3.1.1.min.js',
-                    'js/jquery.tmpl.min.js',
-                    'js/jquery.easing.1.3.js',
-                    'js/jquery.elastislide.js',
-                    'js/gallery.js',
+                    'bower_components/jquery/dist/jquery.min.js',
+                    'bower_components/owl-carousel/dist/owl.carousel.min.js',
+                    'bower_components/bootstrap/dist/js/bootstrap.min.js',
                     'js/countdown.js',
-                    'js/jquery.scrollTo.min.js',
                     'js/waypoints.min.js',
-                    ' js/animate-css.js',
+                    'js/animate-css.js',
+                    'js/maskedinput.js',
                     'js/common.js'
                 ],
 
@@ -43,9 +40,9 @@ module.exports = function (grunt) {
             }
 
 
-        },//concat*/
+        },//concat
 
-        /*uglify:{
+        uglify:{
 
             my_target : {
 
@@ -57,40 +54,40 @@ module.exports = function (grunt) {
 
             }
 
-        }*/
+        }
 
-        cssmin: {
+       /* cssmin: {
 
             with_banner: {
                 options: {
-                    banner: '/* My minified CSS */'
+                    banner: '/!* My minified CSS *!/'
                 },
 
                 files: {
-                    'style/style.min.css': [
-                        'style/animate.css',
-                        'style/style.css',
-                        'style/flexboxgrid.css',
-                        'style/fonts.css',
-                        'style/normilize.css'
+                    'css/style.min.css': [
+                        'bower_components/owl-carousel/dist/assets/owl.carousel.min.css',
+                        'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                        'bower_components/font-awesome/css/font-awesome.min.css',
+                        'bower_components/animate.css/animate.min.css',
+                        'css/a-style.css'
                     ]
                 }
             }
-        }
+        }*/
 
 
     });
 
-    /*grunt.loadNpmTasks('grunt-contrib-concat');*/
-   /* grunt.loadNpmTasks('grunt-contrib-uglify');*/
-   /* grunt.loadNpmTasks('grunt-contrib-cssmin');*/
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    /*grunt.loadNpmTasks('grunt-contrib-cssmin');*/
     /*grunt.loadNpmTasks('grunt-autoprefixer');*/
 
 
 
    /* grunt.registerTask('default', ['autoprefixer']);*/
-    /*grunt.registerTask('default', ['concat']);*/
+    grunt.registerTask('default', ['concat','uglify']);
    /* grunt.registerTask('default', ['uglify']);*/
-   /* grunt.registerTask('default', ['cssmin']);*/
+    /*grunt.registerTask('default', ['cssmin']);*/
 
 };
