@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9adcd6c-2dfa-4bc3-9d56-49622856e94b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-top-form.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nav_thumbs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/snow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/views.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -329,7 +319,7 @@
       <workItem from="1497901351583" duration="115000" />
       <workItem from="1497979248632" duration="1948000" />
       <workItem from="1497990175247" duration="7665000" />
-      <workItem from="1498213017842" duration="12594000" />
+      <workItem from="1498213017842" duration="12658000" />
     </task>
     <task id="LOCAL-00001" summary="first change from phpStorm">
       <created>1497560040563</created>
@@ -401,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498224548467</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version 23-06 finall Version(without comments)">
+      <created>1498226428996</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498226428996</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33453000" />
+    <option name="totallyTimeSpent" value="33517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -449,7 +446,8 @@
     <MESSAGE value="version 23-06 all project before GRUNT" />
     <MESSAGE value="version 23-06 all project(with aweSome) before GRUNT" />
     <MESSAGE value="version 23-06 finall dev-Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 23-06 finall dev-Version" />
+    <MESSAGE value="version 23-06 finall Version(without comments)" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 23-06 finall Version(without comments)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
