@@ -1,3 +1,6 @@
+html{
+
+}
 body {
   height: 100%;
   min-width: 320px;
@@ -18,8 +21,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
-
 
 .btn.active.focus,
 .btn.active:focus,
@@ -165,10 +166,12 @@ ul {
 
 }
 
+
 .slogan {
   font-family: "Open Sans Light", sans-serif;
   font-style: italic;
   color: #1f1a17;
+  font-size: 22px !important;
 }
 
 .slogan span {
@@ -221,24 +224,29 @@ ul {
 
 /*=========Modal window begin=========*/
 
-div.modal{
-
-}
-
 #myModal{
+
+  .modal-header{
+    background-color: #32b0eb;
+  }
+
+  .modal-name{
+    margin-bottom: 20px;
+  }
 
   .modal-h4{
     font-size: 22px;
     text-transform: uppercase;
-    color: #32b0eb !important;
+    color: #FFFFFF !important;
     font-weight: 800;
+
   }
 
   label{
     display: block;
     font-family:"Open Sans Light",sans-serif;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 300;
   }
 
@@ -246,10 +254,11 @@ div.modal{
     width:auto;
     padding: 5px 20px;
     font-family:"Open Sans Light",sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-    margin-top: 10px;
+
     color: #004481 !important;
+    border-radius: 3px;
 
 
     ::-webkit-input-placeholder {
@@ -266,6 +275,7 @@ div.modal{
     :-ms-input-placeholder {
       color: #004481;
     }
+
   }
 
 
@@ -749,36 +759,9 @@ p.end-akcia {
 
     .li-odd {
       float: right;
-
-     /* h3:before {
-        content: ' ';
-        display: inline-block;
-        background-image: url(../img/snow.png);
-        width: 38px;
-        height: 42px;
-        vertical-align: middle;
-        margin-right: 30px;
-      }*/
-
     }
-
-    .li-even {
-
-     /* h3:before {
-        content: ' ';
-        display: inline-block;
-        background-image: url(../img/snow.png);
-        width: 38px;
-        height: 42px;
-        vertical-align: middle;
-        margin-right: 30px;
-      }*/
-
-    }
-
   }
-
-}
+}//why-we
 
 /*WHY WE END*/
 
@@ -822,7 +805,7 @@ p.end-akcia {
 
   p {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -989,6 +972,12 @@ p.end-akcia {
       margin: 0 13px !important;
     }
 
+  }//top-menu
+
+  .text {
+    p{
+      font-size: 14px;
+    }
   }
 
 }
@@ -1009,8 +998,6 @@ p.end-akcia {
     margin-bottom: 0;
   }
 
-
-
   .ymaps{
     margin: 0;
     padding: 0;
@@ -1018,8 +1005,18 @@ p.end-akcia {
     height:500px;
   }
 
+
 }
 
+/*=============================================*/
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    p{
+      font-size: 12px;
+    }
+  }
+}
 /*=============================================*/
 
 /* Medium Devices, Desktops */
@@ -1045,8 +1042,8 @@ p.end-akcia {
       }
     }
 
-  }
-  //about-daikin
+  } //about-daikin
+
 
   .why-we {
 
@@ -1067,6 +1064,12 @@ p.end-akcia {
 
   .ymaps{
     width: 100%;
+  }
+
+  .text {
+    p{
+      font-size: 14px;
+    }
   }
 
 }

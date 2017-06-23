@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bower_components/owl-carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -78,13 +79,12 @@
             <ul>
                 <li class="top-img col-md-4"><a href="#"> <img src="img/top-logo.jpg"
                                                                alt="Daikin кондиционеры"> </a></li>
-                <li class="slogan col-md-2 "> Future<span>Thinking</span></li>
+                <li class="text-center slogan col-md-2 "> Future<span>Thinking</span></li>
                 <li class="top-contact col-md-4">
-                    <div class="top-phone">+38 (048) <span>783-70-48</span></div>
+                    <div class="top-phone"><a  href="tel:+380487837048">+38 (048) <span>783-70-48</span></a> </div>
                     <div class="top-email">
                         <a href="mailto:office@daikin-klimat.od.ua">office@daikin-klimat.od.ua</a>
                     </div>
-                    <!--<button class="btn">обратный звонок</button>-->
                     <a href="#myModal" class="btn" data-toggle="modal">обратный звонок</a>
                 </li>
             </ul>
@@ -106,30 +106,36 @@
                 <h4 class="text-center modal-title modal-h4">Закажите обратный звонок</h4>
             </div>
             <!-- Основное содержимое модального окна -->
+
             <div class="modal-body text-center">
-                <div class="">
-                    <label for="call-name">Ваше имя
-                        <div>
-                            <input type="text" id="call-name" name="call-name" placeholder="Введите Ваше имя">
-                        </div>
-                    </label>
+                <form method="post" class="form">
+                    <div class="modal-name">
+                        <label for="call-name">Ваше имя
+                            <div>
+                                <input type="text" id="call-name" name="name" placeholder="Введите Ваше имя"
+                                       required>
+                            </div>
+                        </label>
 
-                </div>
-                <div class="">
-                    <label for="call-phone">Ваш номер телефона
-                        <div>
-                            <input type="text" id="call-phone" name="call-phone" placeholder="Введите Ваш телефон">
-                        </div>
-                    </label>
+                    </div>
+                    <div class="modal-phone">
+                        <label for="call-phone">Ваш номер телефона
+                            <div>
+                                <input type="text" id="call-phone" name="phone" placeholder="Введите Ваш телефон"
+                                       required>
+                            </div>
+                        </label>
 
-                </div>
-
+                    </div>
+                    <!-- Футер модального окна -->
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-default">Заказать</button>
+                        <!--  <button type="button" class="btn btn-primary">Сохранить изменения</button>-->
+                    </div>
+                </form>
             </div>
-            <!-- Футер модального окна -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-                <!--  <button type="button" class="btn btn-primary">Сохранить изменения</button>-->
-            </div>
+
+
         </div>
     </div>
 </div>
@@ -459,8 +465,10 @@
                 <p class="d-d-p"> почему останавливают свой выбор на нас? </p>
             </div>
             <ul class="clearfix">
-                <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated"><h3> Большой
-                    ассортимент </h3>
+                <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated">
+                    <h3>
+                        <i class="fa fa-snowflake-o" aria-hidden="true"></i> Большой ассортимент
+                    </h3>
                     <p> Среди разнообразия вариантов, представленных в каталоге, мы поможем каждому покупателю подобрать
                         оптимальную систему кондиционирования, которая порадует отменной функциональностью и красотой
                         внешнего вида. При необходимости выполняется скрытый монтаж.
@@ -468,7 +476,7 @@
                 </li>
                 <li class="li-even col-md-6 col-sm-6 col-xs-12">
                     <h3>
-                        Экономичность
+                        <i class="fa fa-snowflake-o" aria-hidden="true"></i> Экономичность
                     </h3>
                     <p>
                         Производитель позаботился не только о модернизации систем и внедрении новых технологий, но и о
@@ -478,7 +486,7 @@
                 </li>
                 <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated">
                     <h3>
-                        ТЕХНОЛОГИИ БУДУЩЕГО.
+                        <i class="fa fa-snowflake-o" aria-hidden="true"></i> ТЕХНОЛОГИИ БУДУЩЕГО.
                     </h3>
                     <p>
                         Daikin постоянно совершенствует свою технику и внедряют новые технологии, которые будут не
@@ -487,7 +495,7 @@
                 </li>
                 <li class="li-even col-md-6 col-sm-6 col-xs-12">
                     <h3>
-                        дизайн
+                        <i class="fa fa-snowflake-o" aria-hidden="true"></i> дизайн
                     </h3>
                     <p>
                         Производитель позаботился не только о модернизации систем и внедрении новых технологий, но и о
@@ -497,7 +505,7 @@
                 </li>
                 <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated">
                     <h3>
-                        Сертификаты качества
+                        <i class="fa fa-snowflake-o" aria-hidden="true"></i> Сертификаты качества
                     </h3>
                     <p>
                         Продукция прошла тщательную проверку - она соответствует высочайшим европейским
@@ -507,7 +515,7 @@
                 </li>
                 <li class="li-even col-md-6 col-sm-6 col-xs-12">
                     <h3>
-                        мультифункционал
+                        <i class="fa fa-snowflake-o" aria-hidden="true"></i> мультифункционал
                     </h3>
                     <p>
                         Вы не у кого не найдете кондиционеры с эффективным притоком свежего воздуха и увлажнением! А так
@@ -539,9 +547,9 @@
                     </div>
                     <div class="clearfix"></div>
 
-                   <div class="text-center">
-                       <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
-                   </div>
+                    <div class="text-center">
+                        <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+                    </div>
 
                 </form>
 
@@ -719,22 +727,22 @@
                     </div>
                     <div class="clearfix"></div>
 
-                   <div class="text-center">
-                       <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
-                   </div>
+                    <div class="text-center">
+                        <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
 
-<!--<div id="contacts" class="container-fluid bg-footer">
+<div id="contacts" class="container-fluid bg-footer">
 
     <div id="map" class="ymaps"></div>
 
     <div class="container">
         <div class="row">
-            <div class="bottom-contact col-lg-3 col-md-5 col-sm-6 col-xs-12">
+            <div class="bottom-contact col-lg-4 col-md-5 col-sm-6 col-xs-12">
 
                 <a href="http://klimat.od.ua/daikin.html">
                     <img src="img/logo-bottom.png" alt="Daikin кондиционеры">
@@ -797,7 +805,7 @@
 
 
     }
-</script>-->
+</script>
 
 
 </body>
