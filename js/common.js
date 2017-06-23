@@ -1,20 +1,41 @@
 $(document).ready(function () {
 
-    $('.owl-carousel').owlCarousel({
+    $('#showroom .owl-carousel').owlCarousel({
 
         items: 1,
         nav: true,
         loop: true,
-        dots : true,
-        navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+        dots: true,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
 
     });
 
-   /* $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-    $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');*/
+    $('#comments .owl-carousel').owlCarousel({
 
+        items: 2,
+        nav: true,
+        loop: true,
+        dots: true,
+        margin : 120,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 1
+            },
+            // breakpoint from 768 up
+            768: {
+                items: 2,
+                margin : 80
+            }
 
+        }
+    });
 
     // Add scrollspy to <body>
     $('body').scrollspy({target: ".navbar", offset: 70});
@@ -46,8 +67,10 @@ $(document).ready(function () {
 
     /*Animation START*/
     $(".production li").animated(" bounceInUp");
-   /* $(".why-we li").animated("bounceInUp");*/
+    $(".why-we li").animated("bounceInUp");
     /*Animation END*/
+
+    $("#call-phone").mask("+38(099) 999-99-99");
 
 
 });

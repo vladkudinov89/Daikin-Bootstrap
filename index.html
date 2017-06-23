@@ -16,12 +16,14 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-<!--
+    <!--
 
-    &lt;!&ndash;AutoPrefix file&ndash;&gt;
-    <link rel="stylesheet" href="css/a-style.css">
+        &lt;!&ndash;AutoPrefix file&ndash;&gt;
+        <link rel="stylesheet" href="css/a-style.css">
 
--->
+    -->
+
+
     <!--JS LINK-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/owl-carousel/dist/owl.carousel.min.js"></script>
@@ -29,6 +31,7 @@
     <script src="js/countdown.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/animate-css.js"></script>
+    <script src="js/maskedinput.js"></script>
     <script src="js/common.js"></script>
 
 
@@ -51,14 +54,14 @@
 
                 <div class="collapse navbar-collapse top-menu" id="myNavbar">
                     <ul class="nav navbar-nav top-nav">
-                        <li><a href="#section0">Daikin</a></li>
-                        <li><a href="#section1">Шоурум</a></li>
-                        <li><a href="#section2">Услуги</a></li>
-                        <li><a href="#section3">Область приминения</a></li>
-                        <li><a href="#section4">Наши преимущества</a></li>
-                        <li><a href="#section5">Схема работы</a></li>
-                        <li><a href="#section6">Отзывы</a></li>
-                        <li><a href="#section7">Контакты</a></li>
+                        <li><a href="#daikin">Daikin</a></li>
+                        <li><a href="#showroom">Шоурум</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#apparea">Область применения</a></li>
+                        <li><a href="#advantages">Наши преимущества</a></li>
+                        <li><a href="#workclient">Схема работы</a></li>
+                        <li><a href="#comments">Отзывы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </div>
 
@@ -68,7 +71,7 @@
 </nav>
 
 <!--SECTION-0 START-->
-<div id="section0" class="container">
+<div id="daikin" class="container">
     <div class="row">
 
         <div class="top-logo">
@@ -78,12 +81,56 @@
                 <li class="slogan col-md-2 "> Future<span>Thinking</span></li>
                 <li class="top-contact col-md-4">
                     <div class="top-phone">+38 (048) <span>783-70-48</span></div>
-                    <div class="top-email">office@daikin-klimat.od.ua</div>
-                    <button class="btn"> обратный звонок</button>
+                    <div class="top-email">
+                        <a href="mailto:office@daikin-klimat.od.ua">office@daikin-klimat.od.ua</a>
+                    </div>
+                    <!--<button class="btn">обратный звонок</button>-->
+                    <a href="#myModal" class="btn" data-toggle="modal">обратный звонок</a>
                 </li>
             </ul>
         </div>
 
+    </div>
+</div>
+
+
+<!-- HTML-код модального окна -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Заголовок модального окна -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <h4 class="text-center modal-title modal-h4">Закажите обратный звонок</h4>
+            </div>
+            <!-- Основное содержимое модального окна -->
+            <div class="modal-body text-center">
+                <div class="">
+                    <label for="call-name">Ваше имя
+                        <div>
+                            <input type="text" id="call-name" name="call-name" placeholder="Введите Ваше имя">
+                        </div>
+                    </label>
+
+                </div>
+                <div class="">
+                    <label for="call-phone">Ваш номер телефона
+                        <div>
+                            <input type="text" id="call-phone" name="call-phone" placeholder="Введите Ваш телефон">
+                        </div>
+                    </label>
+
+                </div>
+
+            </div>
+            <!-- Футер модального окна -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                <!--  <button type="button" class="btn btn-primary">Сохранить изменения</button>-->
+            </div>
+        </div>
     </div>
 </div>
 
@@ -97,6 +144,7 @@
             <p> в Одессе и Одесской области </p></div>
     </div>
 </div>
+
 <div class="container-fluid bg-top-stock">
     <div class="container">
         <div class="stock-wrapper clearfix">
@@ -104,8 +152,12 @@
                 <div class="top-stock-text"><h2> Успей купить </h2>
                     <div class="s-text"><p>Доставка по городу</p>
                         <p><span class="plus">+</span></p>
-                        <p>Монтаж 1000 грн</p></div>
-                    <button class="btn-order">оставить заявку</button>
+                        <p>Монтаж 1000 грн</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить заявку</a>
+                    </div>
+                    <!--<button class="btn-order">оставить заявку</button>-->
                     <p class="end-akcia"> До конца акции осталось: </p>
                     <div id="CDT"></div>
                 </div>
@@ -116,7 +168,7 @@
 <!--SECTION-0 END-->
 
 <!--SECTION-1 START-->
-<div id="section1" class="container-fluid">
+<div id="showroom" class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-9 text-center">
@@ -197,110 +249,139 @@
     </div>
 </div>
 
-<div id="section2">
+<div id="services">
     <div class="container">
-        <div class="production">
-            <div class="daikin-dark">
-                <h2>DAIKIN</h2>
-                <p> представляет все виды систем кондиционирования для каждого объекта </p>
+        <div class="row">
+            <div class="production">
+                <div class="daikin-dark">
+                    <h2>DAIKIN</h2>
+                    <p> представляет все виды систем кондиционирования для каждого объекта </p>
+                </div>
+
+                <ul>
+                    <li class="col-md-5 col-sm-7 animated">
+                        <div class="prod-name"><p> Сплит система </p></div>
+                        <figure><img src="image/production-daikin/split.jpg" alt="Daikin кондиционеры"></figure>
+                        <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                            <p> Daikin - Кондиционеры корпорации производится по всему миру, компрессоры и основные
+                                комплектующие изготавливаются только в Японии. Обязательный 100% входной контроль
+                                производится на все
+                                кондиционеры фирмы Daikin.
+                            </p>
+                            <div class="text-center">
+                                <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить
+                                    заявку</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-5 col-sm-7 animated">
+                        <div class="prod-name"><p> Полупром серии </p></div>
+                        <figure><img src="image/production-daikin/polyprom.jpg" alt="Daikin кондиционеры"></figure>
+                        <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                            <p> Мощный воздушный поток канального кондиционера позволяет использовать длинные
+                                воздуховоды.
+                                Поскольку выдув воздуха можно отнести далеко от главного блока, возможны самые
+                                разнообразные
+                                конфигурации системы кондиционирования. </p>
+                            <div class="text-center">
+                                <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить
+                                    заявку</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-5 col-sm-7 animated">
+                        <div class="prod-name"><p> Вент. установки </p></div>
+                        <figure><img src="image/production-daikin/vent-1.jpg" alt="Daikin кондиционеры"></figure>
+                        <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                            <p> Вентялиционные установки Daikin выгодно отличаются высоким качеством и доступными
+                                ценами.
+                                Отличаются высокой энергоэффективностью, что позволяет снизить расходы на эксплуатацию
+                                системы. </p>
+                            <div class="text-center">
+                                <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить
+                                    заявку</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-5 col-sm-7 animated">
+                        <div class="prod-name"><p> Холодильные системы </p></div>
+                        <figure><img src="image/production-daikin/holod.jpg" alt="Daikin кондиционеры"></figure>
+                        <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                            <p> Холодильное оборудование Daikin подходит для широкого диапазона среднетемпературных
+                                систем и
+                                систем замораживания, и может быть подключено к любому типу холодильной или морозильной
+                                установки. </p>
+                            <div class="text-center">
+                                <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить
+                                    заявку</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-5 col-sm-7 animated">
+                        <div class="prod-name"><p> VRV – системы </p></div>
+                        <figure><img src="image/production-daikin/vrm1.jpg" alt="Daikin кондиционеры"></figure>
+                        <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                            <p> Система VRV-это новое направление развития центральных систем кондиционирования компании
+                                Daikin.Модульный принцип позволяет использовать ее для зданий различного назначения и
+                                размеров. </p>
+                            <div class="text-center">
+                                <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить
+                                    заявку</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-5 col-sm-7 animated">
+                        <div class="prod-name"><p> Чиллер-фанкойлы </p></div>
+                        <figure><img src="image/production-daikin/chiller.jpg" alt="Daikin кондиционеры"></figure>
+                        <div class="prod-description"><h3> ОПИСАНИЕ </h3>
+                            <p> Для точного поддержания микроклимата в самых различных помещениях корпорация Daikin
+                                предлагает уникальную систему кондиционирования на климатическом рынке с максимальными
+                                мощностями. </p>
+                            <div class="text-center">
+                                <a href="#myModal" class="text-center btn btn-order" data-toggle="modal">оставить
+                                    заявку</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
-
-            <ul>
-                <li class="col-md-5 col-sm-7 col-xs-12 animated">
-                    <div class="prod-name"><p> Сплит система </p></div>
-                    <figure><img src="image/production-daikin/split.jpg" alt="Daikin кондиционеры"></figure>
-                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
-                        <p> Daikin - Кондиционеры корпорации производится по всему миру, компрессоры и основные
-                            комплектующие изготавливаются только в Японии. Обязательный 100% входной контроль
-                            производится на все
-                            кондиционеры фирмы Daikin. </p>
-                        <button class="btn-order">оставить заявку</button>
-                    </div>
-                </li>
-                <li class="col-md-5 col-sm-7 col-xs-12 animated">
-                    <div class="prod-name"><p> Полупром серии </p></div>
-                    <figure><img src="image/production-daikin/polyprom.jpg" alt="Daikin кондиционеры"></figure>
-                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
-                        <p> Мощный воздушный поток канального кондиционера позволяет использовать длинные воздуховоды.
-                            Поскольку выдув воздуха можно отнести далеко от главного блока, возможны самые разнообразные
-                            конфигурации системы кондиционирования. </p>
-                        <button class="btn-order">оставить заявку</button>
-                    </div>
-                </li>
-                <li class="col-md-5 col-sm-7 col-xs-12 animated">
-                    <div class="prod-name"><p> Вент. установки </p></div>
-                    <figure><img src="image/production-daikin/vent-1.jpg" alt="Daikin кондиционеры"></figure>
-                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
-                        <p> Вентялиционные установки Daikin выгодно отличаются высоким качеством и доступными ценами.
-                            Отличаются высокой энергоэффективностью, что позволяет снизить расходы на эксплуатацию
-                            системы. </p>
-                        <button class="btn-order">оставить заявку</button>
-                    </div>
-                </li>
-                <li class="col-md-5 col-sm-7 col-xs-12 animated">
-                    <div class="prod-name"><p> Холодильные системы </p></div>
-                    <figure><img src="image/production-daikin/holod.jpg" alt="Daikin кондиционеры"></figure>
-                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
-                        <p> Холодильное оборудование Daikin подходит для широкого диапазона среднетемпературных систем и
-                            систем замораживания, и может быть подключено к любому типу холодильной или морозильной
-                            установки. </p>
-                        <button class="btn-order">оставить заявку</button>
-                    </div>
-                </li>
-                <li class="col-md-5 col-sm-7 col-xs-12 animated">
-                    <div class="prod-name"><p> VRV – системы </p></div>
-                    <figure><img src="image/production-daikin/vrm1.jpg" alt="Daikin кондиционеры"></figure>
-                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
-                        <p> Система VRV-это новое направление развития центральных систем кондиционирования компании
-                            Daikin.Модульный принцип позволяет использовать ее для зданий различного назначения и
-                            размеров. </p>
-                        <button class="btn-order">оставить заявку</button>
-                    </div>
-                </li>
-                <li class="col-md-5 col-sm-7 col-xs-1 animated">
-                    <div class="prod-name"><p> Чиллер-фанкойлы </p></div>
-                    <figure><img src="image/production-daikin/chiller.jpg" alt="Daikin кондиционеры"></figure>
-                    <div class="prod-description"><h3> ОПИСАНИЕ </h3>
-                        <p> Для точного поддержания микроклимата в самых различных помещениях корпорация Daikin
-                            предлагает уникальную систему кондиционирования на климатическом рынке с максимальными
-                            мощностями. </p>
-                        <button class="btn-order">оставить заявку</button>
-                    </div>
-                </li>
-            </ul>
-
         </div>
     </div>
 </div>
 
 <div class="container-fluid bg-form-price">
     <div class="container">
-        <div class="form-price">
-            <div class="form-text">
-                <b>Закажи полный</b>
-                <h2>прайс-лист</h2>
+        <div class="row">
+            <div class="form-price">
+                <div class="form-text">
+                    <b>Закажи полный</b>
+                    <h2>прайс-лист</h2>
+                </div>
+                <form id="callback" class="form">
+                    <div class="col-md-4 text-center">
+                        <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <input type="text" name="phone" placeholder="ВАШ ТЕЛЕФОН">
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <input type="email" name="email" required placeholder="ВАШ EMAIL">
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="text-center">
+                        <button value="Заказать" class="btn-ord">заказать</button>
+                    </div>
+                </form>
             </div>
-            <form id="callback" class="form">
-                <div class="col-md-4 text-center">
-                    <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
-                </div>
-                <div class="col-md-4 text-center">
-                    <input type="text" name="phone" placeholder="ВАШ ТЕЛЕФОН">
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <input type="email" name="email" required placeholder="ВАШ EMAIL">
-                </div>
-                <div class="clearfix"></div>
-
-                <button value="Заказать" class="btn-ord">заказать</button>
-            </form>
         </div>
     </div>
 </div>
 
 
-<div id="section3" class="container-fluid bg-points">
+<div id="apparea" class="container-fluid bg-points">
     <div class="container">
         <div class="points">
             <div class="daikin-white"><h2>DAIKIN</h2>
@@ -343,48 +424,380 @@
 
 <div class="container-fluid bg-form-price">
     <div class="container">
-        <div class="form-price">
-            <div class="form-text">
-                <b>выезд монтажника для замера</b>
-                <h2>абсолютно бесплатно</h2>
+        <div class="row">
+            <div class="form-price">
+                <div class="form-text">
+                    <b>выезд монтажника для замера</b>
+                    <h2>абсолютно бесплатно</h2>
+                </div>
+
+                <form id="callback1" class="form">
+
+                    <div class="col-md-6 text-center">
+                        <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <input type="text" name="phone" required placeholder="ВАШ ТЕЛЕФОН">
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="text-center">
+                        <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+                    </div>
+
+                </form>
+
             </div>
-            
-            <form id="callback1" class="form">
+        </div>
+    </div>
+</div>
 
-                <div class="col-md-6 text-center">
-                    <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+<div id="advantages" class="container-fluid">
+    <div class="container">
+        <div class="why-we">
+            <div class="daikin-dark"><h2>DAIKIN</h2>
+                <p class="d-d-p"> почему останавливают свой выбор на нас? </p>
+            </div>
+            <ul class="clearfix">
+                <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated"><h3> Большой
+                    ассортимент </h3>
+                    <p> Среди разнообразия вариантов, представленных в каталоге, мы поможем каждому покупателю подобрать
+                        оптимальную систему кондиционирования, которая порадует отменной функциональностью и красотой
+                        внешнего вида. При необходимости выполняется скрытый монтаж.
+                    </p>
+                </li>
+                <li class="li-even col-md-6 col-sm-6 col-xs-12">
+                    <h3>
+                        Экономичность
+                    </h3>
+                    <p>
+                        Производитель позаботился не только о модернизации систем и внедрении новых технологий, но и о
+                        разработке оптимального дизайна. Благодаря этому внутренние блоки прекрасно сочетаются с
+                        интерьером любых помещений, дополняя общий стиль.
+                    </p>
+                </li>
+                <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated">
+                    <h3>
+                        ТЕХНОЛОГИИ БУДУЩЕГО.
+                    </h3>
+                    <p>
+                        Daikin постоянно совершенствует свою технику и внедряют новые технологии, которые будут не
+                        доступны большому количеству компаний еще несколько лет.
+                    </p>
+                </li>
+                <li class="li-even col-md-6 col-sm-6 col-xs-12">
+                    <h3>
+                        дизайн
+                    </h3>
+                    <p>
+                        Производитель позаботился не только о модернизации систем и внедрении новых технологий, но и о
+                        разработке оптимального дизайна. Благодаря этому внутренние блоки прекрасно сочетаются с
+                        интерьером любых помещений, дополняя общий стиль.
+                    </p>
+                </li>
+                <li class="li-odd col-md-offset-6 col-md-6 col-sm-offset-2 col-sm-6 col-xs-12 animated">
+                    <h3>
+                        Сертификаты качества
+                    </h3>
+                    <p>
+                        Продукция прошла тщательную проверку - она соответствует высочайшим европейским
+                        стандартамISO9001 и ISO14001. Безопасность использования этого оборудования подтверждена Центром
+                        гигиены и эпидемиологии.
+                    </p>
+                </li>
+                <li class="li-even col-md-6 col-sm-6 col-xs-12">
+                    <h3>
+                        мультифункционал
+                    </h3>
+                    <p>
+                        Вы не у кого не найдете кондиционеры с эффективным притоком свежего воздуха и увлажнением! А так
+                        же совмещение кондиционера и обогревателя конвекционного типа - все это есть только у Daikin!
+                    </p>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-form-price">
+    <div class="container">
+        <div class="row">
+            <div class="form-price">
+                <div class="form-text">
+                    <b>ПОЗВОНИ НАМ И ПОЛУЧИ</b>
+                    <h2>БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</h2>
                 </div>
-                <div class="col-md-6 text-center">
-                    <input type="text" name="phone" required placeholder="ВАШ ТЕЛЕФОН">
-                </div>
-                <div class="clearfix"></div>
 
-                <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+                <form id="callback2" class="form">
 
-            </form>
+                    <div class="col-md-6 text-center">
+                        <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <input type="text" name="phone" required placeholder="ВАШ ТЕЛЕФОН">
+                    </div>
+                    <div class="clearfix"></div>
+
+                   <div class="text-center">
+                       <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+                   </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="workclient" class="container-fluid">
+    <div class="container">
+        <div class="work-client">
+            <div class="daikin-dark">
+                <h2>DAIKIN</h2>
+                <p>
+                    как мы работаем с клиентом
+                </p>
+            </div>
+
+            <ul class="clearfix">
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>1</span></div>
+                    <div class="text">
+                        <p>
+                            Вы звоните или оставляете нам заявку
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>2</span></div>
+                    <div class="text">
+                        <p>
+                            Мы связываемся с Вами для уточнения деталей
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>3</span></div>
+                    <div class="text">
+                        <p>
+                            Замерщик бесплатно проводит замер и консультацию
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>4</span></div>
+                    <div class="text">
+                        <p>
+                            Производим подбор
+                            необходимого оборудования
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>5</span></div>
+                    <div class="text">
+                        <p>
+                            Согласовываем удобное для Вас время монтажа
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>6</span></div>
+                    <div class="text">
+                        <p>
+                            Производим монтаж оборудования
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>7</span></div>
+                    <div class="text">
+                        <p>
+                            В течении 3ч производим монтаж
+                            кондиционера
+                        </p>
+                    </div>
+                </li>
+                <li class="col-md-3 col-sm-5 col-xs-12">
+                    <div class="num"><span>8</span></div>
+                    <div class="text">
+                        <p>
+                            Ваш кондиционер готов к использования
+                        </p>
+                    </div>
+                </li>
+            </ul>
 
         </div>
     </div>
 </div>
 
-<div id="section4" class="container-fluid">
-    <h1>Section 4 Submenu 1</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
-</div>
-<div id="section5" class="container-fluid">
-    <h1>Section 4 Submenu 2</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
-</div>
-<div id="section6" class="container-fluid">
-    <h1>Section 4 Submenu 2</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
-</div>
-<div id="section7" class="container-fluid">
-    <h1>Section 4 Submenu 2</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
-</div>
+
+<div id="comments" class="container-fluid bg-comment">
+    <div class="container">
+        <div class="comment">
+            <div class="daikin-white">
+                <h2>DAIKIN</h2>
+                <p>
+                    мировой лидер в области кондиционирования
+                </p>
+            </div>
+
+            <div class="text-center owl-carousel owl-theme">
+
+                <div class="comment__total img1">
+                    <p class="com-text">
+                        г. Одесса. Установили кондиционер марки Daikin в детскую комнату, всем довольна.
+                        Монтажные работы сделали чисто. Сразу все подключили, работает тихо, выглядит
+                        красиво. Отдельное огромное спасибо монтажникам за то, что они все учли мои пожелания.
+                    </p>
+                    <p class="com-name">
+                        Вячеслав Кудряшов
+                    </p>
+                </div>
+
+                <div class="comment__total img2">
+                    <p class="com-text">
+                        г. Одесса. Не первый раз покупаю себе кондиционеры "Daikin". Доверяю этому бренду,
+                        соотношение цены и качества очень разумны в нынешних обстоятельствах. Приятным
+                        сюрпризом стало то, что получила скидку как постоянный клиент, очень порадовало.
+                    </p>
+                    <p class="com-name">
+                        Татьяна Бежива
+                    </p>
+                </div>
+
+                <div class="comment__total img3">
+                    <p class="com-text">
+                        г. Одесса. Несколько лет откладывали покупку кондиционера и вот наконец-то решились.
+                        На удивление все сделали хорошо, хотя думала, что испортятся стены и будет много
+                        грязи. Теперь понимаю, что покупку нужно было сделать гораздо раньше.
+                    </p>
+                    <p class="com-name">
+                        Марина Нечаева
+                    </p>
+                </div>
+
+                <div class="comment__total img4">
+                    <p class="com-text">
+                        г. Одесса. Обращалась в компанию за покупкой и установкой кондиционера уже второй
+                        раз. Очень довольна консультацией по выбору кондиционера. Мастера по установке
+                        сделали все работы в срок и качественно. Я осталась довольна их работой.
+                    </p>
+                    <p class="com-name">
+                        Наталья Светлова
+                    </p>
+                </div>
 
 
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-bottom-form">
+    <div class="container">
+        <div class="row">
+            <div class="form-price">
+                <div class="form-text">
+                    <b>оставьте заявку</b>
+                    <h2>и мы перезвоним Вам</h2>
+                </div>
+                <form id="callback3" class="form">
+                    <div class="col-md-4 text-center">
+                        <input type="text" name="name" required placeholder="ВАШЕ ИМЯ">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <input type="text" name="phone" placeholder="ВАШ ТЕЛЕФОН">
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <input type="email" name="email" required placeholder="ВАШ EMAIL">
+                    </div>
+                    <div class="clearfix"></div>
+
+                   <div class="text-center">
+                       <button value="Оставить заявку" class="btn-ord">Оставить заявку</button>
+                   </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div id="contacts" class="container-fluid bg-footer">
+
+    <div id="map" class="ymaps"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="bottom-contact col-lg-3 col-md-5 col-sm-6 col-xs-12">
+
+                <a href="http://klimat.od.ua/daikin.html">
+                    <img src="img/logo-bottom.png" alt="Daikin кондиционеры">
+                </a>
+
+                <div class="footer-contacts ">
+                    <div class="adress">
+                        <p class="name">
+                            Наш адрес:
+                        </p>
+                        <p>
+                            г. Одесса, Люстдорфская дорога, 90
+                        </p>
+                    </div>
+                    <div class="adress-phone">
+                        <p class="name">
+                            наши телефоны:
+                        </p>
+                        <p>
+                            +38 (048) 783-70-48
+                        </p>
+                        <p>
+                            +38 (066) 849-45-44
+                        </p>
+                        <p>
+                            +38 (093) 775-25-54
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+    // Как только будет загружен API и готов DOM, выполняем инициализацию
+    ymaps.ready(init);
+
+    function init() {
+        // Создание экземпляра карты и его привязка к контейнеру с
+        // заданным id ("map")
+        var myMap = new ymaps.Map('map', {
+            // При инициализации карты, обязательно нужно указать
+            // ее центр и коэффициент масштабирования
+            center: [46.424134, 30.718909],
+            zoom: 16
+        });
+
+        // Создание метки
+        var myPlacemark = new ymaps.Placemark(
+            // Координаты метки
+            [46.424735, 30.722535]
+        );
+
+        // Добавление метки на карту
+        myMap.geoObjects.add(myPlacemark);
+
+
+    }
+</script>-->
 
 
 </body>

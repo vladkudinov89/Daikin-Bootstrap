@@ -19,14 +19,7 @@ body {
   flex-wrap: wrap;
 }
 
-.container {
- /* outline: 1px solid red;*/
 
-}
-
-.row {
-  /*  outline: 2px solid blue;*/
-}
 
 .btn.active.focus,
 .btn.active:focus,
@@ -36,6 +29,9 @@ body {
 .btn:focus {
   border: none !important;
   outline: none !important;
+  color: #fafafa !important;
+  border-bottom: 2px;
+  border-color: #000;
 }
 
 .top-daikin {
@@ -71,6 +67,7 @@ body {
 
 .form-text {
   padding-top: 60px;
+  padding-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
   font-family: "Open Sans Regular", sans-serif;
@@ -140,7 +137,7 @@ ul {
 .top-nav li a:hover {
   color: #fff !important;
   background: #1E88E5 !important;
-  box-shadow: inset 0 -3px 0 0 #1c75bb !important;
+  box-shadow: inset 0 -4px 0 0 #1c75bb !important;
   transition: all 0.3s;
 }
 
@@ -155,10 +152,9 @@ ul {
 
   ul {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+   @extend .flex-row;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
 
     li {
@@ -201,7 +197,7 @@ ul {
   color: #31b0eb;
   font-size: 16px;
   text-decoration: underline;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -221,6 +217,69 @@ ul {
   background-color: #3d8aeb;
   color: #fafafa;
 }
+
+
+/*=========Modal window begin=========*/
+
+div.modal{
+
+}
+
+#myModal{
+
+  .modal-h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #32b0eb !important;
+    font-weight: 800;
+  }
+
+  label{
+    display: block;
+    font-family:"Open Sans Light",sans-serif;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  input{
+    width:auto;
+    padding: 5px 20px;
+    font-family:"Open Sans Light",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #004481 !important;
+
+
+    ::-webkit-input-placeholder {
+      color: #004481;
+    }
+    ::-moz-placeholder {
+      color: #004481;
+    }
+    /* Firefox 19+ */
+    :-moz-placeholder {
+      color: #004481;
+    }
+    /* Firefox 18- */
+    :-ms-input-placeholder {
+      color: #004481;
+    }
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+/*=========Modal window end===========*/
 
 /*TOP_LOGO END*/
 
@@ -322,7 +381,7 @@ p.end-akcia {
 
 .btn-order, .btn-ord {
   font-weight: 400;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   cursor: pointer;
   border: none;
@@ -412,7 +471,8 @@ p.end-akcia {
 
 }
 
-#section1 .owl-carousel {
+#showroom .owl-carousel,
+#comments .owl-carousel {
   margin: 30px 0;
   position: relative;
 
@@ -435,6 +495,12 @@ p.end-akcia {
 
     .owl-next {
       right: -20px;
+    }
+
+    .owl-prev:hover,
+    .owl-next:hover{
+      color: #177daf;
+      transition: all 0.5s;
     }
 
   }
@@ -568,11 +634,10 @@ p.end-akcia {
 
 .form-price {
 
-
   .form {
     margin-bottom: 40px;
 
-    button{
+    button {
       width: 250px;
     }
 
@@ -612,37 +677,37 @@ p.end-akcia {
 
 /*POINTS BEGIN*/
 
-.bg-points{
+.bg-points {
   background: #2f688c url(../img/bg-point-daikin.jpg) 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
 
-.points{
+.points {
 
   padding-bottom: 100px;
 
-  ul{
+  ul {
     margin: 0;
     @extend .flex-row;
     justify-content: space-between;
 
-    li{
+    li {
       margin-top: 70px;
     }
 
   }
 
-  figure{
+  figure {
     margin: 0;
     text-align: center;
 
-    img{
+    img {
       border: 2px solid #fff;
       vertical-align: top;
     }
 
-    figcaption{
+    figcaption {
       background-color: #fff;
       text-align: center;
       color: #333;
@@ -656,58 +721,243 @@ p.end-akcia {
 
 /*POINTS END*/
 
+/*WHY WE BEGIN*/
 
+.why-we {
 
-/*#section1 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #1E88E5;
-}*/
+  ul {
 
-/*#section2 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #673ab7;
-}*/
+    margin: 50px 0;
 
-/*
-#section3 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #ff9800;
+    li {
+
+      h3 {
+        color: #1c75bb;
+        font-family: "Open Sans Regular", sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin: 5px 0;
+      }
+
+      p {
+        font-size: 18px;
+        color: #333333;
+        margin: 0;
+      }
+
+    }
+
+    .li-odd {
+      float: right;
+
+     /* h3:before {
+        content: ' ';
+        display: inline-block;
+        background-image: url(../img/snow.png);
+        width: 38px;
+        height: 42px;
+        vertical-align: middle;
+        margin-right: 30px;
+      }*/
+
+    }
+
+    .li-even {
+
+     /* h3:before {
+        content: ' ';
+        display: inline-block;
+        background-image: url(../img/snow.png);
+        width: 38px;
+        height: 42px;
+        vertical-align: middle;
+        margin-right: 30px;
+      }*/
+
+    }
+
+  }
+
 }
-*/
 
-#section4 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #00bcd4;
+/*WHY WE END*/
+
+/*WORK CLIENT BEGIN*/
+
+.work-client {
+
+  ul {
+    margin: 0;
+    margin-bottom: 100px;
+
+    li {
+      margin-top: 70px;
+    }
+  }
 }
 
-#section5 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #009688;
+.num {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+  background-color: #3cb9bb;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+
+  span {
+    position: absolute;
+    top: 7px;
+    right: -5px;
+    font-size: 72px;
+    color: #fff;
+    font-weight: bold;
+  }
+
 }
 
-#section6 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #673ab7;
+.text {
+
+  p {
+    margin: 0;
+    font-size: 12px;
+  }
 }
 
-#section7 {
-  padding-top: 50px;
-  height: 500px;
-  color: #fff;
-  background-color: #ff9800;
+/*WORK CLIENT END*/
+
+/*COMMENT BEGIN*/
+.bg-comment {
+  background: #36b1b9 url(../img/bg-comment.jpg) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
+
+#comments {
+
+  .comment {
+    padding-bottom: 50px;
+  }
+
+  .owl-prev,
+  .owl-next {
+    color: #FFFFFF !important;
+  }
+
+  .owl-prev:hover,
+  .owl-next:hover {
+    color: #a5d0f5 !important;
+    transition: all 0.5s;
+  }
+
+  .comment__total {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .comment__total:before {
+    content: ' ';
+    display: inline-block;
+    width: 66px;
+    height: 69px;
+    margin-top: 20px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px 1px rgba(28, 117, 187, 0.7);
+    -moz-box-shadow: 0 0 10px 1px rgba(28, 117, 187, 0.7);
+    box-shadow: 0 0 10px 1px rgba(28, 117, 187, 0.7);
+  }
+
+  .img1:before {
+    background: transparent url(../img/foto-people-1.png) 0 0 no-repeat;
+  }
+
+  .img2:before {
+    background: transparent url(../img/foto-people-2.png) 0 0 no-repeat;
+  }
+
+  .img3:before {
+    background: transparent url(../img/foto-people-3.jpg) 0 0 no-repeat;
+  }
+
+  .img4:before {
+    background: transparent url(../img/foto-people-4.jpg) 0 0 no-repeat;
+  }
+
+  .com-text {
+    font-style: italic;
+    margin: 0;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: #333333;
+  }
+
+  .com-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 30px;
+  }
+
+}
+
+//#comments
+
+/*COMMENT END*/
+
+.bg-bottom-form {
+  background-color: #000;
+  opacity: 0.8;
+}
+
+/*FOOTER BEGIN*/
+
+.ymaps {
+  width: 1300px;
+  height: 500px;
+}
+
+.bg-footer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-contact {
+  position: absolute;
+  top: 85px;
+  /*width: 450px;*/
+  background-color: #3e3832;
+  opacity: 0.9;
+  border-radius: 5%;
+  text-align: center;
+
+  img {
+    padding-top: 15px;
+  }
+
+  .footer-contacts {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+    p.name {
+      font-family: "Open Sans Regular", sans-serif;
+      text-transform: uppercase;
+      font-size: 22px;
+      color: #0094d3;
+      font-weight: bold;
+    }
+
+  }
+
+}
+
+/*FOOTER END*/
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -747,6 +997,27 @@ p.end-akcia {
 
 @media only screen and (min-width: 1024px) {
 
+  .why-we h3,
+  .why-we p {
+    text-align: left;
+  }
+  .why-we p.d-d-p {
+    text-align: center;
+  }
+  .li-even,
+  .li-odd {
+    margin-bottom: 0;
+  }
+
+
+
+  .ymaps{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:500px;
+  }
+
 }
 
 /*=============================================*/
@@ -777,6 +1048,27 @@ p.end-akcia {
   }
   //about-daikin
 
+  .why-we {
+
+    h3 {
+      font-size: 18px !important;
+    }
+    p {
+      font-size: 16px !important;
+    }
+
+    .li-even,
+    .li-odd {
+      margin-bottom: 40px;
+    }
+
+  }
+  //why-we
+
+  .ymaps{
+    width: 100%;
+  }
+
 }
 
 /*=============================================*/
@@ -792,7 +1084,6 @@ p.end-akcia {
     ul {
       flex-direction: column;
     }
-
   }
 
   .top-nav {
@@ -817,15 +1108,27 @@ p.end-akcia {
     justify-content: center;
   }
 
-  .form{
-    div{
+  .form {
+    div {
       margin-bottom: 20px;
     }
   }
 
-  .points ul{
+  .points ul {
     flex-direction: column;
     align-items: center;
+  }
+
+  .why-we {
+    .li-even,
+    .li-odd {
+      margin-bottom: 0;
+    }
+
+  }
+
+  .ymaps{
+    width: auto;
   }
 
 }
@@ -863,8 +1166,56 @@ p.end-akcia {
     width: 255px;
   }
 
-  .points img{
+  .points img {
     width: 100%;
+  }
+
+  .why-we {
+
+    h3 {
+      font-size: 14px !important;
+    }
+
+    h3:before {
+      margin-right: 0 !important;
+    }
+
+    p {
+      font-size: 12px !important;
+    }
+
+    li {
+      margin-bottom: 20px !important;
+    }
+  }
+  //why-we
+
+  .form-text {
+    input {
+      width: 100% !important;
+    }
+    h2 {
+      font-size: 26px !important;
+    }
+
+    b {
+      font-size: 24px;
+    }
+  }
+  //form-text
+
+  .ymaps{
+    display: none;
+  }
+
+  .bottom-contact{
+    max-width: 100%;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .bottom-contact img{
+    width: 200px;
   }
 
 }
