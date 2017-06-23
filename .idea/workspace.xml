@@ -2,6 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9adcd6c-2dfa-4bc3-9d56-49622856e94b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/production-daikin/bg-prod.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/about-daikin/australia.jpg" afterPath="$PROJECT_DIR$/image/about-daikin/australia.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/about-daikin/europe.jpg" afterPath="$PROJECT_DIR$/image/about-daikin/europe.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/about-daikin/singapur.jpg" afterPath="$PROJECT_DIR$/image/about-daikin/singapur.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/about-daikin/usa.jpg" afterPath="$PROJECT_DIR$/image/about-daikin/usa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-1.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-10.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-11.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-12.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-14.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-2.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-3.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-4.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-5.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-6.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-7.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-8.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/gallery-foto/foto-9.jpg" afterPath="$PROJECT_DIR$/image/gallery-foto/foto-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/points-daikin/home.jpg" afterPath="$PROJECT_DIR$/image/points-daikin/home.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/points-daikin/office.jpg" afterPath="$PROJECT_DIR$/image/points-daikin/office.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/points-daikin/proizvod.jpg" afterPath="$PROJECT_DIR$/image/points-daikin/proizvod.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/points-daikin/restoran.jpg" afterPath="$PROJECT_DIR$/image/points-daikin/restoran.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/points-daikin/school.jpg" afterPath="$PROJECT_DIR$/image/points-daikin/school.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/points-daikin/shop.jpg" afterPath="$PROJECT_DIR$/image/points-daikin/shop.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/production-daikin/chiller.jpg" afterPath="$PROJECT_DIR$/image/production-daikin/chiller.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/production-daikin/holod.jpg" afterPath="$PROJECT_DIR$/image/production-daikin/holod.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/production-daikin/polyprom.jpg" afterPath="$PROJECT_DIR$/image/production-daikin/polyprom.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/production-daikin/split.jpg" afterPath="$PROJECT_DIR$/image/production-daikin/split.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/production-daikin/vent-1.jpg" afterPath="$PROJECT_DIR$/image/production-daikin/vent-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/production-daikin/vrm1.jpg" afterPath="$PROJECT_DIR$/image/production-daikin/vrm1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-about-daikin.jpg" afterPath="$PROJECT_DIR$/img/bg-about-daikin.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-comment.jpg" afterPath="$PROJECT_DIR$/img/bg-comment.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-point-daikin.jpg" afterPath="$PROJECT_DIR$/img/bg-point-daikin.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-price-form.jpg" afterPath="$PROJECT_DIR$/img/bg-price-form.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-top-form-1.jpg" afterPath="$PROJECT_DIR$/img/bg-top-form-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/foto-people-3.jpg" afterPath="$PROJECT_DIR$/img/foto-people-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/foto-people-4.jpg" afterPath="$PROJECT_DIR$/img/foto-people-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo-bottom.png" afterPath="$PROJECT_DIR$/img/logo-bottom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/top-header.jpg" afterPath="$PROJECT_DIR$/img/top-header.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +65,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="522">
               <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -54,7 +93,7 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="578">
               <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
               <folding />
             </state>
@@ -64,8 +103,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2719">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="639" column="37" lean-forward="false" selection-start-line="639" selection-start-column="37" selection-end-line="639" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -75,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+              <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -186,6 +225,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAIKIN-Bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAIKIN-Bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -211,10 +264,10 @@
       <recent name="D:\#Projects\DAIKIN-Bootstrap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Projects\DAIKIN-Bootstrap" />
       <recent name="D:\#Projects\DAIKIN-Bootstrap\bower_components" />
       <recent name="D:\#Projects\DAIKIN-Bootstrap\js" />
       <recent name="D:\#Projects\DAIKIN-Bootstrap\css" />
-      <recent name="D:\#Projects\DAIKIN-Bootstrap" />
       <recent name="D:\#Projects\DAIKIN-Bootstrap\Daikin-Bootstrap" />
     </key>
   </component>
@@ -319,7 +372,7 @@
       <workItem from="1497901351583" duration="115000" />
       <workItem from="1497979248632" duration="1948000" />
       <workItem from="1497990175247" duration="7665000" />
-      <workItem from="1498213017842" duration="12658000" />
+      <workItem from="1498213017842" duration="14335000" />
     </task>
     <task id="LOCAL-00001" summary="first change from phpStorm">
       <created>1497560040563</created>
@@ -398,18 +451,24 @@
       <option name="project" value="LOCAL" />
       <updated>1498226428996</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="version 23-06 finall Version(with .htaccess)">
+      <created>1498226520671</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1498226520671</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33517000" />
+    <option name="totallyTimeSpent" value="35194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19537275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17287917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17287917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.5025707" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -447,7 +506,8 @@
     <MESSAGE value="version 23-06 all project(with aweSome) before GRUNT" />
     <MESSAGE value="version 23-06 finall dev-Version" />
     <MESSAGE value="version 23-06 finall Version(without comments)" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 23-06 finall Version(without comments)" />
+    <MESSAGE value="version 23-06 finall Version(with .htaccess)" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 23-06 finall Version(with .htaccess)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/production.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -626,26 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2719">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -743,7 +779,7 @@
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -766,9 +802,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="639" column="37" lean-forward="false" selection-start-line="639" selection-start-column="37" selection-end-line="639" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="522">
           <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
