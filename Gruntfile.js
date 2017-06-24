@@ -8,7 +8,7 @@ module.exports = function (grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
-        /*autoprefixer: {
+       /* autoprefixer: {
             options: {
                 // We need to `freeze` browsers versions for testing purposes.
                 browsers: ['last 2 versions', 'ie 8', 'ie 9', 'opera 12', 'ff 15', 'chrome 25']
@@ -17,9 +17,10 @@ module.exports = function (grunt) {
             single_file: {
                 src: 'css/style.css',
                 dest: 'css/a-style.css'
-            }*/
+            }
+        }*/
 
-        concat: {
+        /*concat: {
 
             dist: {
 
@@ -54,7 +55,7 @@ module.exports = function (grunt) {
 
             }
 
-        }
+        }*/
 
        /* cssmin: {
 
@@ -78,15 +79,15 @@ module.exports = function (grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+   /* grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');*/
     /*grunt.loadNpmTasks('grunt-contrib-cssmin');*/
     /*grunt.loadNpmTasks('grunt-autoprefixer');*/
 
 
 
    /* grunt.registerTask('default', ['autoprefixer']);*/
-    grunt.registerTask('default', ['concat','uglify']);
+    /*grunt.registerTask('default', ['concat','uglify']);*/
    /* grunt.registerTask('default', ['uglify']);*/
     /*grunt.registerTask('default', ['cssmin']);*/
 

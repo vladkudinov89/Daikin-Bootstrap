@@ -518,7 +518,8 @@ p.end-akcia {
   .form-price .form button {
     width: 250px; }
   .form-price .form input[type="text"],
-  .form-price .form input[type="email"] {
+  .form-price .form input[type="email"],
+  .form-price .form input[type="tel"] {
     border: none;
     outline: none;
     background-color: #ffffff;
