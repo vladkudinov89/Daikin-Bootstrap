@@ -3,7 +3,7 @@
 ;(function () {
 
     $(window).on('activate.bs.scrollspy', function (e) {
-        history.replaceState({}, "", $("a[href^='#']", e.target).attr("href"));
+        history.pushState('',document.title,window.location.pathname);
     });
 
     $(document).ready(function () {
@@ -66,7 +66,7 @@
                 }, 500, function () {
 
                     // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
+                    window.location.hash = '';
 
                 });
                 $(".navbar-collapse").collapse('hide');

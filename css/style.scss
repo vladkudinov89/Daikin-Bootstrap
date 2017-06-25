@@ -251,14 +251,16 @@ ul {
   }
 
   input{
-    width:auto;
+    max-width:100%;
     padding: 5px 20px;
     font-family:"Open Sans Light",sans-serif;
     font-size: 18px;
     font-weight: 300;
-
-    color: #004481 !important;
-    border-radius: 3px;
+    outline: none;
+    border: 1px solid #cecece;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+   color: #004481 !important;
 
 
     ::-webkit-input-placeholder {
@@ -276,6 +278,10 @@ ul {
       color: #004481;
     }
 
+  }
+
+  input:focus{
+    border: 1px solid #004481;
   }
 
 
@@ -914,7 +920,6 @@ p.end-akcia {
 .bottom-contact {
   position: absolute;
   top: 85px;
-  /*width: 450px;*/
   background-color: #3e3832;
   opacity: 0.9;
   border-radius: 5%;
@@ -936,6 +941,15 @@ p.end-akcia {
       color: #0094d3;
       font-weight: bold;
     }
+
+    .adress-phone{
+
+      a{
+        color: #FFFFFF !important;
+      }
+
+    }
+
 
   }
 

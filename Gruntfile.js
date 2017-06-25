@@ -8,7 +8,7 @@ module.exports = function (grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
-       /* autoprefixer: {
+        autoprefixer: {
             options: {
                 // We need to `freeze` browsers versions for testing purposes.
                 browsers: ['last 2 versions', 'ie 8', 'ie 9', 'opera 12', 'ff 15', 'chrome 25']
@@ -18,9 +18,28 @@ module.exports = function (grunt) {
                 src: 'css/style.css',
                 dest: 'css/a-style.css'
             }
-        }*/
+        },
 
-        /*concat: {
+        cssmin: {
+
+            with_banner: {
+                options: {
+                    banner: '/* My minified CSS */'
+                },
+
+                files: {
+                    'css/style.min.css': [
+                        'bower_components/owl-carousel/dist/assets/owl.carousel.min.css',
+                        'bower_components/bootstrap/dist/css/bootstrap.min.css',
+                        'bower_components/font-awesome/css/font-awesome.min.css',
+                        'bower_components/animate.css/animate.min.css',
+                        'css/a-style.css'
+                    ]
+                }
+            }
+        },
+
+        concat: {
 
             dist: {
 
@@ -55,39 +74,22 @@ module.exports = function (grunt) {
 
             }
 
-        }*/
+        }
 
-       /* cssmin: {
 
-            with_banner: {
-                options: {
-                    banner: '/!* My minified CSS *!/'
-                },
-
-                files: {
-                    'css/style.min.css': [
-                        'bower_components/owl-carousel/dist/assets/owl.carousel.min.css',
-                        'bower_components/bootstrap/dist/css/bootstrap.min.css',
-                        'bower_components/font-awesome/css/font-awesome.min.css',
-                        'bower_components/animate.css/animate.min.css',
-                        'css/a-style.css'
-                    ]
-                }
-            }
-        }*/
 
 
     });
 
-   /* grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');*/
-    /*grunt.loadNpmTasks('grunt-contrib-cssmin');*/
-    /*grunt.loadNpmTasks('grunt-autoprefixer');*/
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-autoprefixer');
 
 
 
    /* grunt.registerTask('default', ['autoprefixer']);*/
-    /*grunt.registerTask('default', ['concat','uglify']);*/
+    grunt.registerTask('default', ['concat','uglify','autoprefixer','cssmin']);
    /* grunt.registerTask('default', ['uglify']);*/
     /*grunt.registerTask('default', ['cssmin']);*/
 
